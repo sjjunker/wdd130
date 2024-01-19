@@ -6,8 +6,8 @@
     --accent1-color: #535250;
     --accent2-color: #fffeeb;
 
-    --heading-font: 'Zeyada', handwriting;
-    --paragraph-font: 'Cutive', 'slab serif';
+    --heading-font: 'Zeyada', cursive;
+    --paragraph-font: 'Cutive', serif;
 
     --nav-background-color: var(--primary-color);
     --nav-link-color: var(--accent1-color);
