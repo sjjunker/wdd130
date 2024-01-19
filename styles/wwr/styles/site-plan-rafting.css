@@ -1,3 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Zeyada&display=swap');
+
+:root {
+    --primary-color: #4d9377;
+    --secondary-color: #e4b062;
+    --accent1-color: #535250;
+    --accent2-color: #fffeeb;
+
+    --heading-font: 'Zeyada', handwriting;
+    --paragraph-font: 'Cutive', 'slab serif';
+
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--accent1-color);
+    --nav-hover-link-color: var(--accent2-color);
+    --nav-hover-background-color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
 p {
-    padding: 0;
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a  {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
