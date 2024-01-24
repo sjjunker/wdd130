@@ -70,7 +70,6 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-/*having a hard time with class syntax, need to look this up in order to get the correct outcome*/
 .hero div {
     position: relative;
 }
