@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Zeyada&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #4d9377;
+    --secondary-color: #e4b062;
+    --accent1-color: #535250;
+    --accent2-color: #fffeeb72;
+
+    --heading-font: 'Zeyada', cursive;
+    --paragraph-font: 'Cutive', serif;
+
+    --nav-background-color: var(--primary-color);
+    --nav-link-color: var(--accent1-color);
+    --nav-hover-link-color: var(--accent2-color);
+    --nav-hover-background-color: var(--secondary-color);
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    margin: 10px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav, footer {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a  {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav img {
+    width: 4rem;
+    height: auto;
+    border-radius: 25%;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+/*having a hard time with class syntax, need to look this up in order to get the correct outcome*/
+.hero div {
+    position: relative;
+}
+
+.hero h1, .hero article {
+    position: absolute;
+    width: 920px;
+    background-color: var(--accent2-color);
+}
+
+.hero article {
+    top: 400px;
+}
+
+.hero h1 {
+    top: 300px;
+    text-align: center;
+    margin:0;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    width: 25%;
+    height: auto;
+    float: right;
+    margin: 20px;
+    border-radius: 1%;
+}
+
+footer a img {
+    width: 4rem;
+    height: auto;
+    padding: 10px;
+}
