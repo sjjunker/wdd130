@@ -52,7 +52,7 @@ aside h2 {
     top: 47px;
     left: 150px;
     color: rgb(228, 170, 13);
-    /*Added the following to make the text readable over colored variable background colors*/
+    /*Make text readable over colored variable background colors*/
     background-color: #3f54ce81;
     border-radius: 25%;
 }
