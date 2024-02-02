@@ -86,7 +86,7 @@ header, footer, .grid {
 /* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid steelblue;
+    border: 1px solid #4682b4;
     padding: 1rem;
     background-color: #e1954997;
     color: steelblue;
