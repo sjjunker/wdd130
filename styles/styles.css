@@ -44,7 +44,6 @@ p {
 }
 
 main {
-    max-width: 840px;
     display: grid;
     align-items: center;
 }
