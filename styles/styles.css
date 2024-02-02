@@ -44,12 +44,14 @@ p {
 }
 
 main {
-    /*display: grid;
+    /*
+    display: grid;
     align-items: center;
     
     Why is this a part of the standards?
     The instructions did not ask for this in the "main" selector.
-    It messes up the word wrapping around the profile image.*/
+    It messes up the word wrapping around the profile image.
+    */
     padding: 25px;
 }
 
@@ -98,5 +100,6 @@ header, footer, .grid {
 
 .grid {
     display: grid;
+    align-items: center;
     grid-template-columns: 1fr 2fr;
 }
