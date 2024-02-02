@@ -44,8 +44,13 @@ p {
 }
 
 main {
-    display: grid;
+    /*display: grid;
     align-items: center;
+    
+    Why is this a part of the standards?
+    The instructions did not ask for this in the "main" selector.
+    It messes up the word wrapping around the profile image.*/
+    padding: 25px;
 }
 
 aside {
@@ -65,9 +70,9 @@ aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
-    color: rgb(228, 170, 13);
+    color: white;
     /*Make text readable over colored variable background colors*/
-    background-color: #3f54ce81;
+    background-color: rgba(214, 81, 134, 0.356);
     border-radius: 25%;
 }
 
@@ -87,8 +92,8 @@ header, footer, .grid {
     margin: 1rem;
     border: 1px solid #4682b4;
     padding: 1rem;
-    background-color: #e1954997;
-    color: steelblue;
+    background-color: #faebd7;
+    color: black;
 }
 
 .grid {
