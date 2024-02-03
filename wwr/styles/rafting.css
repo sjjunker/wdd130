@@ -10,14 +10,14 @@
     --primary-color: #4d9377;
     --secondary-color: #e4b062;
     --accent1-color: black;
-    --accent2-color: white;
+    --accent2-color: #fffeeb72;
 
     --heading-font: 'Zeyada', cursive;
     --paragraph-font: 'Cutive', serif;
 
     --nav-background-color: var(--primary-color);
     --nav-link-color: var(--accent1-color);
-    --nav-hover-link-color: var(--accent2-color);
+    --nav-hover-link-color: var(--accent1-color);
     --nav-hover-background-color: var(--secondary-color);
 }
 
