@@ -34,8 +34,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    padding: 20px;
+    padding: 10px;
     background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+header img {
+    max-height: 100px;
+    width: auto;
+    border-radius: 5%;
+    justify-self: center;
 }
 
 p {
@@ -46,19 +56,14 @@ nav, footer {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    align-items: center;
 }
 
-nav a  {
+a  {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
-}
-
-nav img {
-    width: 4rem;
-    height: auto;
-    border-radius: 25%;
 }
 
 nav a:link, nav a:visited {
@@ -87,7 +92,7 @@ nav a:hover {
 .hero h1 {
     top: 300px;
     text-align: center;
-    margin:0;
+    margin: 0;
 }
 
 .hero img {
@@ -107,9 +112,4 @@ nav a:hover {
 footer a img {
     width: 4rem;
     height: auto;
-    padding: 10px;
-}
-
-footer a {
-    text-decoration: none;
 }
