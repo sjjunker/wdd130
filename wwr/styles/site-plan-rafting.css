@@ -3,8 +3,8 @@
 :root {
     --primary-color: #4d9377;
     --secondary-color: #e4b062;
-    --accent1-color: #535250;
-    --accent2-color: #fffeeb;
+    --accent1-color: black;
+    --accent2-color: white;
 
     --heading-font: 'Zeyada', cursive;
     --paragraph-font: 'Cutive', serif;
