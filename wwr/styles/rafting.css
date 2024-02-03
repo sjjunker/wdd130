@@ -53,7 +53,7 @@ p {
     padding: 25px;
 }
 
-nav, footer {
+nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
@@ -140,7 +140,22 @@ nav a:hover {
     margin: 5px;
  }
 
+footer {
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+}
+
+footer p {
+    grid-column: 2 / 4;
+}
+
+footer nav {
+    grid-column: 4 /5;
+}
+
  footer a img {
-    width: 4rem;
+    max-width: 3rem;
     height: auto;
 }
