@@ -109,6 +109,36 @@ nav a:hover {
     border-radius: 1%;
 }
 
+.content-section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 50px auto;
+    align-items: center;
+    justify-items: center;
+    margin: 50px;
+}
+ .content-section h2 {
+    grid-column: span 5;
+ }
+
+ .content-section img {
+    max-width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+ }
+
+ .content-section p {
+    grid-row: 2 / 3;
+    grid-column: span 2;
+
+ }
+
+ figure {
+    margin: 5px;
+ }
+
 footer a img {
     width: 4rem;
     height: auto;
