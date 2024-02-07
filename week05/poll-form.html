@@ -6,46 +6,59 @@
         <title>Poll Form | Sandi Junker</title>
         <meta name="description" content="###">
         <meta name="author" content="Sandi Junker">
-        <link rel="stylesheet" href="###">
+        <link rel="stylesheet" href="styles/poll-form.css">
     </head>
     <body>
-        <header></header>
+        <header>
+            <h1>WDD 130 | HTML Form | User Poll</h1>
+        </header>
         <main>
 
             <form>
                 <fieldset>
                     <legend>Contact Information</legend>
 
-                    <label for="fullname">Full name:</label>
+                    <div class="form-item column2">
+                        <label for="fullname">Full name:</label>
                     <input type="text" id="fullname" name="fullname">
-
-                    <label for="useremail">Email:</label>
+                    </div>
+                    
+                    <div class="form-item column2">
+                        <label for="useremail">Email:</label>
                     <input type="text" id="useremail" name="useremail">
+                    </div>      
                 </fieldset>
 
                 <fieldset>
                     <legend>Questions</legend>
 
-                    <label for="browser">What is your favorite browser?</label>
-                    <select id="browser" name="browser">
-                        <option value="safari">Safari</option>
-                        <option value="cortana">Cortana</option>
-                        <option value="firefox">FireFox</option>
-                        <option value="chrome">Chrome</option>
-                        <option value="duckduckgo">DuckDuckGo</option>
-                    </select>
+                    <div class=" form-item column1">
+                        <label for="browser">What is your favorite browser?</label>
+                        <select id="browser" name="browser">
+                            <option value="safari">Safari</option>
+                            <option value="cortana">Cortana</option>
+                            <option value="firefox">FireFox</option>
+                            <option value="chrome">Chrome</option>
+                            <option value="duckduckgo">DuckDuckGo</option>
+                        </select>
+                    </div>
+                    
 
-                    <label for="pet">Do you have a household pet?</label>
-                    <input type="checkbox" id="pet" name="pet">
-
+                    <div class="form-item column1">
+                        <label for="pet">Do you have a household pet?</label>
+                        <input type="checkbox" id="pet" name="pet">
+                    </div>
+                    
                     <label for="feedback">List the places you have lived:</label>
-                    <textarea id="feedback" name="feedback" rows="4" placeholder="Lexington Michigan, Provo Utah, Schofield Barracks Hawaii"></textarea>
+                    <textarea id="feedback" name="feedback" rows="4" placeholder="Lexington Michigan, Provo Utah, Schofield Barracks Hawaii"></textarea> 
                 </fieldset>
 
                 <button type="submit">Submit Poll</button>
             </form>
 
         </main>
-        <footer></footer>
+        <footer>
+            <p>©2024 | HTML Form - User Poll Activity | Sandi Junker</p>
+        </footer>
     </body>
 </html>
