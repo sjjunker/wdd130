@@ -6,13 +6,14 @@
 
 header, body, footer {
     margin: 0 auto;
-    max-width: 30rem;
+    max-width: 35rem;
     padding: .5rem;
     color: black;
 }
 
 header {
     border-bottom: .1rem solid black;
+
 }
 
 form {
@@ -20,8 +21,9 @@ form {
     margin: 1rem;
     background-color: rgba(135, 206, 250, 0.288);
     border: none;
-    border-radius: 1rem;
+    border-radius: .75rem;
     display: grid;
+    row-gap: .5rem;
 }
 
 label {
@@ -31,14 +33,23 @@ label {
 
 input, textarea {
     padding: .5rem;
-    margin: .25rem;
+}
+
+select {
+    background-color: white;
+    padding: .5rem;
+}
+
+button {
+    padding: .5rem;
+    margin-top: 1.5rem;
+}
+
+button:hover {
+    background-color: rgba(166, 115, 214, 0.604);
 }
 
 footer {
     border-top: .1rem solid black;
-}
-
-.twocolumns {
-    display: flex;
-    align-items: center;
+    text-align: right;
 }
