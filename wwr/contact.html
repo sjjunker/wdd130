@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us | White Water Rafting</title>
+        <meta name="description" content="A page for including contact information, allowing visitors to contact us.">
+        <meta name="author" content="Sandi Junker">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img src="images/logo.png" alt="Rafting Company Logo">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main>
+            <!--Hero Image-->
+            <div class="hero">
+                <img src="images/hero.png" alt="Several people white water rafting">
+                <h1>White Water Rafting</h1>
+            </div>
+
+            <!--Contact Information-->
+            <section class="contact-information">
+                <h2>Contact Information</h2>
+                <div>
+                    <p>1234 Aspen Rd Freemont, NC 11111</p>
+                    <p>(555) 123-4567</p>
+                    <p>our_email@email.com</p>
+                </div>
+                <iframe></iframe>
+            </section>
+
+            <!--Employees-->
+            <section class="employees">
+                <h2>Our Team</h2>
+                <figure>
+                    <img src="#" alt="#">
+                    <figcaption>Mr. Pickles, Owner</figcaption>
+                </figure>
+                <figure>
+                    <img src="#" alt="#">
+                    <figcaption>Charlotte, Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="#" alt="#">
+                    <figcaption>Phillip, Customer Service</figcaption>
+                </figure>
+            </section>
+
+            <!--Send Message-->
+            <form>
+                <h2>Send Message</h2>
+
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" name="full_name">
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+
+                <fieldset>
+                    <legend>Purpose</legend>
+                    <input type="radio" id="general" name="purpose" value="general">
+                    <label for="general">General</label>
+                    <input type="radio" id="reservations" name="purpose" value="reservations">
+                    <label for="reservations">Reservations</label>
+                    <input type="radio" id="site-suggestion" name="purpose" value="site_suggestion">
+                    <label for="site-suggestion">Site Suggestion</label>
+                </fieldset>
+                
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="To Whome it May Concern"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </main>
+        <footer>
+            <p>©2024 | Rafting Site Plan | Sandi Junker | WDD130</p>
+            <nav>
+                <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+                <a href="https://twitter.com"><img src="images/twitter.png" alt="X logo"></a>
+                <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram logo"></a>
+            </nav>
+        </footer>
+    </body>
+</html>
