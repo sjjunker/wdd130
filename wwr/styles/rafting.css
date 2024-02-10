@@ -241,10 +241,11 @@ div label {
 button {
     width: 10rem;
     padding: .25rem;
+    background-color: var(--secondary-color);
 }
 
 button:hover {
-    background-color: var(--secondary-color);
+    background-color: #f4bc68;
 }
 
 #wireframe-img {
