@@ -1,31 +1,32 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Trips | White Water Rafting</title>
-        <meta name="description" content="A page with information about the specific trips, adventures, and packages that the rafting company offers to clients.">
-        <meta name="author" content="Sandi Junker">
-        <link rel="stylesheet" href="styles/rafting.css">
-    </head>
-    <body>
-        <header>
-            <img src="images/logo.png" alt="Rafting Company Logo">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About Us</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        </header>
-
-        <main>
-            <!--Hero Image-->
-            <div class="hero">
-                <img src="images/hero.png" alt="Several people white water rafting">
-                <h1>White Water Rafting | Trips</h1>
-            </div>
-
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trips | White Water Rafting</title>
+    <meta name="description" content="A page with information about the specific trips, adventures, and packages that the rafting company offers to clients.">
+    <meta name="author" content="Sandi Junker">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    
+    <main>
+        <!--Hero Image-->
+        <div class="hero">
+            <img src="images/hero.png" alt="Several people white water rafting">
+            <h1>White Water Rafting | Trips</h1>
+        </div>
+        
+        <div class="trips-grid">
             <!--Featured Trips-->
             <aside class="featured">
                 <h2>Featured</h2>
@@ -42,11 +43,11 @@
                     <figcaption>Camping Run is a three day trip of a lifetime, including several of our other well known runs including Little Bend and Blue Lagoon. Only expert level rafters should consider taking this trip. All necessary gear and meals are included.</figcaption>
                 </figure>
             </aside>
-
+            
             <!--Complete Trip Information-->
             <section class="trips-table">
-                <h2>Trips</h2>
                 <table>
+                    <caption><h2>Trips</h2></caption>
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -103,22 +104,29 @@
                     </tbody>
                 </table>
             </section>
-
+            
             <!--Book/Contact Us Link-->
-            <section>
-                <h2>Book Now</h2>
-                <a href="contact.html"><img src="images/contact-us.png" alt="Person on their smart phone."></a>
+            <section class="contact-us-link">
+                <a href="contact.html">
+                    <div class="book-now">
+                        <h2>Book Now</h2>
+                        <img src="images/contact-us.png" alt="Person on their smart phone.">
+                    </div>
+                </a>
             </section>
-        </main>
-
-        <footer>
-            <p>©2024 | Rafting Site Plan | Sandi Junker | WDD130</p>
-            <nav>
-                <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
-                <a href="https://twitter.com"><img src="images/twitter.png" alt="X logo"></a>
-                <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram logo"></a>
-                <a href="images/trips-wireframe.png"><img src="images/wireframe.png" alt="Wireframe Picture" id="wireframe-img"></a>
-            </nav>
-        </footer>
-    </body>
+        </div>
+        
+        
+    </main>
+    
+    <footer>
+        <p>©2024 | Rafting Site Plan | Sandi Junker | WDD130</p>
+        <nav>
+            <a href="https://facebook.com"><img src="images/facebook.png" alt="facebook logo"></a>
+            <a href="https://twitter.com"><img src="images/twitter.png" alt="X logo"></a>
+            <a href="https://instagram.com"><img src="images/instagram.png" alt="Instagram logo"></a>
+            <a href="images/trips-wireframe.png"><img src="images/wireframe.png" alt="Wireframe Picture" id="wireframe-img"></a>
+        </nav>
+    </footer>
+</body>
 </html>
