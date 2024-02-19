@@ -117,7 +117,10 @@ nav a:hover {
     grid-template-rows: 50px auto;
     align-items: center;
     justify-items: center;
-    margin: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: var(--accent2-color);
+    border-radius: 1rem;
 }
 .content-section h2 {
     grid-column: span 5;
@@ -164,11 +167,13 @@ footer a img {
 /*contact.html elements*/
 .contact-information {
     display: flex;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     justify-content: space-between;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: var(--accent2-color);
+    border-radius: 1rem;
 }
 
 .contact-information p {
@@ -180,8 +185,8 @@ footer a img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 3fr;
     justify-items: center;
-    border-top: 2px solid var(--secondary-color);
-    border-bottom: 2px solid var(--secondary-color);
+    background-color: var(--accent2-color);
+    border-radius: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -206,11 +211,15 @@ form {
     justify-content: left;
     padding: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
     row-gap: .75rem;
+    background-color: var(--accent2-color);
+    border-radius: 1rem;
 }
 
 form h2 {
     margin: 0;
+    margin-top: 1rem;
 }
 
 #full-name, #email {
@@ -259,6 +268,7 @@ button:hover {
     column-gap: 3rem;
     row-gap: 5rem;
     width: 920px;
+    margin-top: 2rem;
 }
 
 .featured {
@@ -267,6 +277,10 @@ button:hover {
     font-size: 12px;
     text-align: center;
     padding: 1rem;
+    background-color: var(--accent2-color);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
 }
 
 .featured figcaption {
@@ -278,27 +292,38 @@ button:hover {
     grid-column: 2 / 3;
 }
 
-.contact-us-link {
+.contact-us-link, .trips-link {
     grid-column: 2 / 3;
     align-self: center;
 }
 
-.book-now img {
+.book-now img, .trips-link img {
     position: absolute;
-    width: 550px;
-    height: auto;
     border: .5rem solid var(--primary-color);
     border-radius: 1rem;
+}
+
+.book-now img:hover, .trips-link img:hover {
+    border: .5rem solid var(--secondary-color);
+}
+
+.book-now img {
+    width: 500px;
+    height: auto;
     top: -200px;
+    right: 40px;
+}
+
+.book-now h2, .trips-link h2 {
+    position: absolute;
+    z-index: 1;
+    background-color: var(--primary-color);
+    border-radius: 100%;
 }
 
 .book-now h2 {
-    position: absolute;
-    z-index: 1;
-    left: 220px;
-    top: -25px;
-    background-color: var(--primary-color);
-    border-radius: 100%;
+    left: 200px;
+    top: -45px;
 }
 
 table {
@@ -306,6 +331,8 @@ table {
     height: 100%;
     padding: 1rem;
     border-collapse: collapse;
+    background-color: var(--accent2-color);
+    border-radius: 1rem;
 }
 
 th {
@@ -315,4 +342,46 @@ th {
 
 tr:nth-child(even) {
     background-color: var(--secondary-color);
+}
+
+/*home page elements*/
+.home-grid {
+    display: grid;
+    width: 920px;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    row-gap: 3rem;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+}
+
+.site-offering {
+    grid-column: span 2;
+    display: flex;
+    background-color: var(--accent2-color);
+    border-radius: 1rem;
+}
+
+.site-offering img {
+    width: 575px;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.trips-link img {
+    width: 400px;
+    height: auto;
+    top: 1670px;
+    right: 225px;
+}
+
+.trips-link h2 {
+    top: 1790px;
+    right: 252px;
+}
+
+.newsletter {
+    border: 1px solid black;
+    border-radius: 1rem;
+    background-color: var(--accent2-color);
 }
